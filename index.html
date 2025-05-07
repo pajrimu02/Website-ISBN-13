@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ISBN-13 Checker</title>
+  </head>
+  <body>
+    <center>
+      <img src="img/LOGO.png" width="230" height="120" />
+    </center>
+    <h2>Validasi dan Analisis ISBN-13</h2>
+    <input type="text" id="isbn" placeholder="Masukkan ISBN (boleh ada x)" />
+    <br /><br />
+
+    <button onclick="validateISBN()">Cek Validitas ISBN</button>
+    <button onclick="findCheckDigit()">Cari Check Digit (12 digit)</button>
+    <button onclick="solveForX()">Cari Nilai x (dalam ISBN 13 digit)"</button>
+
+    <p id="result"></p>
+    <script src="main.js"></script>
+
+    <footer>
+      <p>&copy; 2025 ISBN Checker. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+  </body>
+</html>
